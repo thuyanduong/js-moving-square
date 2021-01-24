@@ -5,13 +5,6 @@
   width: 50px;
 }
 
-#opponent {
-  background-color: white;
-  height: 50px;
-  position: absolute;
-  width: 50px;
-}
-
 #game {
   background-color: #111;
   height: 350px;
