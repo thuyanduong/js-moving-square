@@ -56,7 +56,7 @@ function moveLeft() {
   var leftPixels = square.style.left.replace("px", "");
   var left = parseInt(leftPixels);
   if (left > 0) {
-    square.style.left = `${left - 5}px`;
+    square.style.left = `${left - 10}px`;
   }
 }
 
@@ -64,7 +64,7 @@ function moveRight() {
   var leftPixels = square.style.left.replace("px", "");
   var left = parseInt(leftPixels);
   if (left < 300) {
-    square.style.left = `${left + 5}px`;
+    square.style.left = `${left + 10}px`;
   }
 }
 
@@ -72,7 +72,7 @@ function moveDown() {
   var topPixels = square.style.top.replace("px", "");
   var top = parseInt(topPixels);
   if (top < 300) {
-    square.style.top = `${top + 5}px`;
+    square.style.top = `${top + 10}px`;
   }
 }
 
@@ -80,6 +80,6 @@ function moveUp(){
   var topPixels = square.style.top.replace("px", "");
   var top = parseInt(topPixels);
   if (top > 0) {
-    square.style.top = `${top - 5}px`;
+    square.style.top = `${top - 10}px`;
   }
 }
